@@ -37,6 +37,13 @@ Sube `portal-private/` y `public_html/` encima de las carpetas actuales y acepta
 - **Contenido inicial** que carga la instalación: `portal-private/data/portal.json`.
 - **Imágenes y documentos:** `public_html/assets/cbp/`. Las imágenes grandes tienen una copia `.webp` que el servidor entrega a los navegadores compatibles.
 
+### Diseños, carrusel de programas y galería de noticias
+
+- **Diseño del portal:** en la intranet, *Temas y apariencia › Diseño del portal*, se elige entre **Clásico institucional**, **Moderno** y **Editorial**. El diseño cambia la estructura visual del sitio público; los colores siguen el tema activo.
+- **Programas de estudio en carrusel:** en *Portada › Bloques, accesos y cifras*, la opción *Presentación de los programas de estudio* alterna entre cuadrícula y carrusel, tanto en la portada como en la página de programas.
+- **Noticias con varias fotos:** cada noticia admite la imagen principal y hasta 4 fotos adicionales (5 en total). En la web se muestran como galería con visor ampliado.
+- **Accesos rápidos:** la instalación nueva incluye *Plataforma Virtual* (https://cbp.iapp.pe) y *Correo Institucional* (https://login.microsoftonline.com/). Subir los archivos no cambia los datos ya guardados: en una instalación existente, primero actualiza la URL de *Plataforma Virtual* y agrega *Correo institucional* (identificador `correo`) en *Enlaces y servicios*; luego agrega los dos accesos en *Portada › Accesos rápidos* con los enlaces `ext:aula` y `ext:correo`.
+
 ### Actualizar los retratos institucionales
 
 Los retratos retocados usan formato vertical **4:5 (720 × 900)**, con fondo de biblioteca y sin degradado oscuro sobre la fotografía. Se conservan las rutas existentes para que también funcionen con los datos de instalaciones ya creadas; no es necesario reinstalar ni importar de nuevo la base de datos.

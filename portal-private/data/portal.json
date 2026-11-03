@@ -152,6 +152,18 @@
           "texto": "Ofertas laborales",
           "icono": "briefcase",
           "enlace": "#/servicios/bolsa-laboral"
+        },
+        {
+          "titulo": "Plataforma Virtual",
+          "texto": "Aula virtual de estudiantes y docentes",
+          "icono": "monitor",
+          "enlace": "ext:aula"
+        },
+        {
+          "titulo": "Correo Institucional",
+          "texto": "Microsoft 365",
+          "icono": "mail",
+          "enlace": "ext:correo"
         }
       ],
       "cifras": [
@@ -187,7 +199,8 @@
           "d": "Convenios con el sector productivo y experiencias formativas en situaciones reales de trabajo.",
           "i": "building"
         }
-      ]
+      ],
+      "programasVista": "grid"
     },
     "tema": "pisco",
     "mpv": {
@@ -348,7 +361,8 @@
         "base": true
       }
     },
-    "enlacesV2": true
+    "enlacesV2": true,
+    "diseno": "clasico"
   },
   "slides": [
     {
@@ -416,7 +430,15 @@
     {
       "id": "aula",
       "nombre": "Plataforma Virtual",
-      "url": "https://cbpmdl.silferacademic.com/login/index.php",
+      "url": "https://cbp.iapp.pe",
+      "grupo": "Servicios",
+      "estado": "Activo",
+      "verificado": ""
+    },
+    {
+      "id": "correo",
+      "nombre": "Correo institucional",
+      "url": "https://login.microsoftonline.com/",
       "grupo": "Servicios",
       "estado": "Activo",
       "verificado": ""
@@ -9145,7 +9167,7 @@
       "horario": "Las 24 horas",
       "costo": "Consultar con la institución.",
       "responsable": "Unidad de Bienestar y Empleabilidad",
-      "icono": "cpu",
+      "icono": "monitor",
       "estado": "Publicado",
       "orden": 5,
       "creadoPor": "importacion-cbp",
