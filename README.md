@@ -40,7 +40,7 @@ Sube `portal-private/` y `public_html/` encima de las carpetas actuales y acepta
 ### Diseños, carrusel de programas y galería de noticias
 
 - **Diseño del portal:** en la intranet, *Temas y apariencia › Diseño del portal*, se elige entre **Clásico institucional**, **Moderno** y **Editorial**. El diseño cambia la estructura visual del sitio público; los colores siguen el tema activo.
-- **Programas de estudio en carrusel:** en *Portada › Bloques, accesos y cifras*, la opción *Presentación de los programas de estudio* alterna entre cuadrícula y carrusel, tanto en la portada como en la página de programas.
+- **Programas de estudio en carrusel:** se muestran en carrusel por omisión, en la portada y en la página de programas. Para cambiar a cuadrícula, usa *Vista en la web* en el módulo *Programas de estudio* o *Presentación de los programas de estudio* en *Portada › Bloques, accesos y cifras*.
 - **Noticias con varias fotos:** cada noticia admite la imagen principal y hasta 4 fotos adicionales (5 en total). En la web se muestran como galería con visor ampliado.
 - **Accesos rápidos:** la instalación nueva incluye *Plataforma Virtual* (https://cbp.iapp.pe) y *Correo Institucional* (https://login.microsoftonline.com/). Subir los archivos no cambia los datos ya guardados: en una instalación existente, primero actualiza la URL de *Plataforma Virtual* y agrega *Correo institucional* (identificador `correo`) en *Enlaces y servicios*; luego agrega los dos accesos en *Portada › Accesos rápidos* con los enlaces `ext:aula` y `ext:correo`.
 
